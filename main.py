@@ -42,3 +42,12 @@ def allumerLed(red, blue, green, white):
 if __name__ == "__main__":
     print("helloworld")
     app.run(host="0.0.0.0", port=flaskPort)
+
+
+"""
+Example of requests :
+
+http://localhost:5000/d-light?red=255&green=255&blue=255&white=255
+
+
+"""
